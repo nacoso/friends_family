@@ -1,14 +1,14 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Title:</strong>
-  <%= @picture.title %>
-</p>
+<h1>
+  <div class="show_header" >
+    <%= @picture.title %>
+  </div>
+</h1>
 
-<p>
-
+<div class="show_pic">
   <%= image_tag @picture.url, :class => "jqPuzzle"%>
-</p>
+</div>
 
 <%= link_to 'Edit', edit_picture_path(@picture) %> |
 <%= link_to 'Back', pictures_path %>
