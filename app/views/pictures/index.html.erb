@@ -6,15 +6,13 @@
 
   <div class="gallery" >
     <% @pictures.each do |picture| %>
-      <ul>
-        <li><%= image_tag picture.url %>
-
-            <%= link_to 'Show', picture %></td>
-            <%= link_to 'Edit', edit_picture_path(picture) %>
-            <%= link_to 'Destroy', picture, method: :delete, data: { confirm: 'Are you sure?' } %>
-
-        </li>
-      </ul>
+      <div class="li">
+        <%= image_tag picture.url %>
+      </div>
+      <div class="">
+        <%= link_to 'Show', picture %>
+        <%= link_to 'Edit', edit_picture_path(picture) %>
+        <%= link_to 'Destroy', picture, method: :delete, data: { confirm: 'Are you sure?' } %>
+      </div>
       <% end %>
-
 </div>
