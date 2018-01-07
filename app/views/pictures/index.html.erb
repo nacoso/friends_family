@@ -1,5 +1,5 @@
 <div class="header" >
-<h1>Listing pictures</h1><%= link_to 'New Picture', new_picture_path %>
+  <div class="text"><h1>Listing pictures</h1><%= link_to 'New Picture', new_picture_path %></div>
 </div>
 
 
@@ -7,15 +7,15 @@
   <div class="gallery" >
     <% @pictures.each do |picture| %>
 
-      <ul>
+      <div class="links"><ul>
         <li><%= image_tag picture.url %>
 
-            <%= link_to 'Puzzler', picture %></td>
+            <%= link_to 'Puzzler', picture %>
             <%= link_to 'Edit', edit_picture_path(picture) %>
             <%= link_to 'Delete', picture, method: :delete, data: { confirm: 'Are you sure?' } %>
 
-        </li>
-      </ul>
+            </li>
+      </ul></div>
 
    <% end %>
 </div>
