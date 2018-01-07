@@ -57,7 +57,10 @@
 
 /* the controls area which holds the buttons and the display */
 .jqPuzzle .jqp-controls {
-	float: right;
+	float: left;
+	display: flex;
+	position: fixed;
+	bottom: 100px;
 }
 
 /* a button */
