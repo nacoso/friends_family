@@ -46,10 +46,30 @@
   margin: 5px;
   padding: 5px;
   position: relative;
-  color: white;
+  color: black;
   height: 50px;
 }
 
-.show_pic {
-  position: fixed;
+.jqPuzzle {
+  text-align: center;
+  border-radius: 15px;
+  margin: 10px;
+}
+
+.puzzle_pic {
+  width: 50%;
+}
+
+.show_original_pic {
+  position: absolute;
+  right: 10px;
+  top: 110px;
+  /*float: right;*/
+  width: 50%;
+  border-radius: 15px;
+}
+
+.show_links {
+  color: black;
+  position: relative;
 }
