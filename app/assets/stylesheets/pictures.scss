@@ -1,0 +1,121 @@
+/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+.home{
+  background-image: url("https://images5.alphacoders.com/368/368655.jpg");
+  background-attachment: fixed;
+}
+.header {
+  width: 75%;
+  height: 15vh;
+  background-color: #2C2F34;
+  border-radius: 15px;
+  margin-left: 10.5%;
+  margin-right: 12.5%;
+  padding: 25px;
+  position: auto;
+  color: white;
+  text-align: center;
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%) */
+}
+.text{
+  margin-top: 4%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+}
+
+.gallery ul {
+  display: center;
+}
+.links{
+  width: 33%;
+  float: left;
+  display: inline;
+}
+
+.gallery {
+  /* position: relative; */
+   width: 75%;
+  /* height: 80vh; */
+  padding: 25px;
+  // background: rgba(0,0,0,0.4);
+  background-color: #2C2F34;
+  text-align: center;
+  list-style: none;
+  overflow: hidden;
+  border-radius: 15px;
+  /* margin: 5px; */
+  display: inline-block;
+
+
+
+  /* position: absolute; */
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-50%, -50%); */
+  margin-left: 10.5%;
+  margin-right: 12.5%;
+  margin-top: 5%;
+
+}
+
+.gallery li {
+
+    /* border-color: #ddd #bbb #aaa #ccc;
+    border-style: solid; */
+    /* border-width: 1px; */
+    color: inherit;
+    display: block;
+    float: left;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+
+
+
+
+img {
+    /* background: #fff; */
+    border-color: #aaa #ccc #ddd #bbb;
+    border-style: solid;
+    border-width: 1px;
+    color: inherit;
+    padding: 2px;
+    vertical-align: top;
+    width: 220px;
+    height: 175px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.gallery li img {
+  border-radius: 15px;
+}
+
+.show_header {
+  width: 100%;
+  background-color: #2C2F34;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 5px;
+  position: relative;
+  color: white;
+  height: 50px;
+}
+
+.show_pic {
+  position: fixed;
+}
+
+a.white-link {
+  font-size: 16px;
+  &:visited {
+    color: white;
+  }
+  color: white;
+  padding: 5px;
+}
