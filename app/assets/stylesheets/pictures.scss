@@ -2,7 +2,9 @@
   Place all the styles related to the matching controller here.
   They will automatically be included in application.css.
 */
-
+.home{
+  background-image: url("https://images5.alphacoders.com/368/368655.jpg")
+}
 .header {
   width: 75%;
   height: 15vh;
@@ -84,6 +86,8 @@ img {
     vertical-align: top;
     width: 220px;
     height: 175px;
+    border-radius: 15px;
+    margin: 10px;
 }
 
 .gallery li img {
@@ -103,4 +107,13 @@ img {
 
 .show_pic {
   position: fixed;
+}
+
+a.white-link {
+  font-size: 16px;
+  &:visited {
+    color: white;
+  }
+  color: white;
+  padding: 5px;
 }
