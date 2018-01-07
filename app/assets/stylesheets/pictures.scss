@@ -3,7 +3,8 @@
   They will automatically be included in application.css.
 */
 .home{
-  background-image: url("https://images5.alphacoders.com/368/368655.jpg")
+  background-image: url("https://images5.alphacoders.com/368/368655.jpg");
+  background-attachment: fixed;
 }
 .header {
   width: 75%;
@@ -40,6 +41,7 @@
    width: 75%;
   /* height: 80vh; */
   padding: 25px;
+  // background: rgba(0,0,0,0.4);
   background-color: #2C2F34;
   text-align: center;
   list-style: none;
