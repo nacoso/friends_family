@@ -29,9 +29,11 @@ class PicturesController < ApplicationController
     respond_to do |format|
       if @picture.save
         format.html { redirect_to @picture, notice: 'Picture was successfully created.' }
+        format.js { }
         format.json { render :show, status: :created, location: @picture }
       else
         format.html { render :new }
+        format.js { }
         format.json { render json: @picture.errors, status: :unprocessable_entity }
       end
     end
@@ -43,6 +45,7 @@ class PicturesController < ApplicationController
     respond_to do |format|
       if @picture.update(picture_params)
         format.html { redirect_to @picture, notice: 'Picture was successfully updated.' }
+        format.js { }
         format.json { render :show, status: :ok, location: @picture }
       else
         format.html { render :edit }
