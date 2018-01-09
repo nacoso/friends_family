@@ -18,10 +18,12 @@
 .jqPuzzle {
 	height: 100%;
 	width: 100%;
-	padding: 5px;
-	border: 1px solid #222222;
+	padding: 15px;
+	/*border: 0px solid #222222;*/
 	background-color: #2C2F34;
 	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border-radius: 15px;
+	left: 200px;
 }
 
 /* only needed if external css rules set defaults for divs,
@@ -29,14 +31,15 @@
 .jqPuzzle div {
 	background-color: transparent;
 	margin: 0px;
-	padding: 0px;
+	padding: 10px;
 	border-style: none;
+
 }
 
 /* div wrapper which holds the puzzle pieces and the solution image */
 .jqPuzzle .jqp-wrapper {
 	padding: 2px;
-	border: 1px solid #FFFFFF;
+	/*border: 1px solid #FFFFFF;*/
 	background-color: #444455;
 }
 
@@ -60,7 +63,8 @@
 	float: left;
 	display: flex;
 	position: fixed;
-	bottom: 100px;
+	bottom: 290px;
+	right: 90px;
 }
 
 /* a button */
