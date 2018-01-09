@@ -7,20 +7,16 @@
   background-attachment: fixed;
 }
 .header {
-  width: 75%;
-  height: 15vh;
+  width: 85%;
   background-color: #2C2F34;
   border-radius: 15px;
-  margin-left: 10.5%;
-  margin-right: 12.5%;
   padding: 25px;
-  position: auto;
+  position: relative;
   color: white;
   text-align: center;
-  /* top: 50%; */
-  /* left: 50%; */
-  /* transform: translate(-50%, -50%) */
-}
+  margin-left: 75px;
+  }
+
 .text{
   margin-top: 4%;
   margin-left: 12.5%;
@@ -104,11 +100,7 @@ img {
   padding: 5px;
   position: relative;
   color: white;
-  height: 50px;
-}
-
-.show_pic {
-  position: fixed;
+  text-align: left;
 }
 
 a.white-link {
@@ -118,4 +110,18 @@ a.white-link {
   }
   color: white;
   padding: 5px;
+}
+
+.instructions {
+  float: right;
+  width: 45%;
+  background-color: #2C2F34;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 15px;
+  position: fixed;
+  top: 200px;
+  right: 50px;
+  height: 30%;
+  color: white;
 }
